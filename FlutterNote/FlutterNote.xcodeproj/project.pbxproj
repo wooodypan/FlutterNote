@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		603E207623B4D80700E4460D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603E207523B4D80700E4460D /* AppDelegate.swift */; };
+		603E207823B4D80700E4460D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603E207723B4D80700E4460D /* SceneDelegate.swift */; };
+		603E207A23B4D80700E4460D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603E207923B4D80700E4460D /* ViewController.swift */; };
+		603E207D23B4D80700E4460D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603E207B23B4D80700E4460D /* Main.storyboard */; };
+		603E207F23B4D80E00E4460D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 603E207E23B4D80E00E4460D /* Assets.xcassets */; };
+		603E208223B4D80E00E4460D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 603E208023B4D80E00E4460D /* LaunchScreen.storyboard */; };
+		603E208D23B4D80E00E4460D /* FlutterNoteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603E208C23B4D80E00E4460D /* FlutterNoteTests.swift */; };
+		603E209823B4D80E00E4460D /* FlutterNoteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603E209723B4D80E00E4460D /* FlutterNoteUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		603E208923B4D80E00E4460D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 603E206A23B4D80700E4460D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 603E207123B4D80700E4460D;
+			remoteInfo = FlutterNote;
+		};
+		603E209423B4D80E00E4460D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 603E206A23B4D80700E4460D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 603E207123B4D80700E4460D;
+			remoteInfo = FlutterNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		603E207223B4D80700E4460D /* FlutterNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlutterNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		603E207523B4D80700E4460D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		603E207723B4D80700E4460D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		603E207923B4D80700E4460D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		603E207C23B4D80700E4460D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		603E207E23B4D80E00E4460D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		603E208123B4D80E00E4460D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		603E208323B4D80E00E4460D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603E208823B4D80E00E4460D /* FlutterNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlutterNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		603E208C23B4D80E00E4460D /* FlutterNoteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterNoteTests.swift; sourceTree = "<group>"; };
+		603E208E23B4D80E00E4460D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		603E209323B4D80E00E4460D /* FlutterNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlutterNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		603E209723B4D80E00E4460D /* FlutterNoteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlutterNoteUITests.swift; sourceTree = "<group>"; };
+		603E209923B4D80E00E4460D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		603E206F23B4D80700E4460D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603E208523B4D80E00E4460D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603E209023B4D80E00E4460D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		603E206923B4D80700E4460D = {
+			isa = PBXGroup;
+			children = (
+				603E207423B4D80700E4460D /* FlutterNote */,
+				603E208B23B4D80E00E4460D /* FlutterNoteTests */,
+				603E209623B4D80E00E4460D /* FlutterNoteUITests */,
+				603E207323B4D80700E4460D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		603E207323B4D80700E4460D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				603E207223B4D80700E4460D /* FlutterNote.app */,
+				603E208823B4D80E00E4460D /* FlutterNoteTests.xctest */,
+				603E209323B4D80E00E4460D /* FlutterNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		603E207423B4D80700E4460D /* FlutterNote */ = {
+			isa = PBXGroup;
+			children = (
+				603E207523B4D80700E4460D /* AppDelegate.swift */,
+				603E207723B4D80700E4460D /* SceneDelegate.swift */,
+				603E207923B4D80700E4460D /* ViewController.swift */,
+				603E207B23B4D80700E4460D /* Main.storyboard */,
+				603E207E23B4D80E00E4460D /* Assets.xcassets */,
+				603E208023B4D80E00E4460D /* LaunchScreen.storyboard */,
+				603E208323B4D80E00E4460D /* Info.plist */,
+			);
+			path = FlutterNote;
+			sourceTree = "<group>";
+		};
+		603E208B23B4D80E00E4460D /* FlutterNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				603E208C23B4D80E00E4460D /* FlutterNoteTests.swift */,
+				603E208E23B4D80E00E4460D /* Info.plist */,
+			);
+			path = FlutterNoteTests;
+			sourceTree = "<group>";
+		};
+		603E209623B4D80E00E4460D /* FlutterNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				603E209723B4D80E00E4460D /* FlutterNoteUITests.swift */,
+				603E209923B4D80E00E4460D /* Info.plist */,
+			);
+			path = FlutterNoteUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		603E207123B4D80700E4460D /* FlutterNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603E209C23B4D80E00E4460D /* Build configuration list for PBXNativeTarget "FlutterNote" */;
+			buildPhases = (
+				603E206E23B4D80700E4460D /* Sources */,
+				603E206F23B4D80700E4460D /* Frameworks */,
+				603E207023B4D80700E4460D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlutterNote;
+			productName = FlutterNote;
+			productReference = 603E207223B4D80700E4460D /* FlutterNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		603E208723B4D80E00E4460D /* FlutterNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603E209F23B4D80E00E4460D /* Build configuration list for PBXNativeTarget "FlutterNoteTests" */;
+			buildPhases = (
+				603E208423B4D80E00E4460D /* Sources */,
+				603E208523B4D80E00E4460D /* Frameworks */,
+				603E208623B4D80E00E4460D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				603E208A23B4D80E00E4460D /* PBXTargetDependency */,
+			);
+			name = FlutterNoteTests;
+			productName = FlutterNoteTests;
+			productReference = 603E208823B4D80E00E4460D /* FlutterNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		603E209223B4D80E00E4460D /* FlutterNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 603E20A223B4D80E00E4460D /* Build configuration list for PBXNativeTarget "FlutterNoteUITests" */;
+			buildPhases = (
+				603E208F23B4D80E00E4460D /* Sources */,
+				603E209023B4D80E00E4460D /* Frameworks */,
+				603E209123B4D80E00E4460D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				603E209523B4D80E00E4460D /* PBXTargetDependency */,
+			);
+			name = FlutterNoteUITests;
+			productName = FlutterNoteUITests;
+			productReference = 603E209323B4D80E00E4460D /* FlutterNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		603E206A23B4D80700E4460D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = WeirdPan;
+				TargetAttributes = {
+					603E207123B4D80700E4460D = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					603E208723B4D80E00E4460D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 603E207123B4D80700E4460D;
+					};
+					603E209223B4D80E00E4460D = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 603E207123B4D80700E4460D;
+					};
+				};
+			};
+			buildConfigurationList = 603E206D23B4D80700E4460D /* Build configuration list for PBXProject "FlutterNote" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 603E206923B4D80700E4460D;
+			productRefGroup = 603E207323B4D80700E4460D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				603E207123B4D80700E4460D /* FlutterNote */,
+				603E208723B4D80E00E4460D /* FlutterNoteTests */,
+				603E209223B4D80E00E4460D /* FlutterNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		603E207023B4D80700E4460D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603E208223B4D80E00E4460D /* LaunchScreen.storyboard in Resources */,
+				603E207F23B4D80E00E4460D /* Assets.xcassets in Resources */,
+				603E207D23B4D80700E4460D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603E208623B4D80E00E4460D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603E209123B4D80E00E4460D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		603E206E23B4D80700E4460D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603E207A23B4D80700E4460D /* ViewController.swift in Sources */,
+				603E207623B4D80700E4460D /* AppDelegate.swift in Sources */,
+				603E207823B4D80700E4460D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603E208423B4D80E00E4460D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603E208D23B4D80E00E4460D /* FlutterNoteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		603E208F23B4D80E00E4460D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				603E209823B4D80E00E4460D /* FlutterNoteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		603E208A23B4D80E00E4460D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 603E207123B4D80700E4460D /* FlutterNote */;
+			targetProxy = 603E208923B4D80E00E4460D /* PBXContainerItemProxy */;
+		};
+		603E209523B4D80E00E4460D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 603E207123B4D80700E4460D /* FlutterNote */;
+			targetProxy = 603E209423B4D80E00E4460D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		603E207B23B4D80700E4460D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				603E207C23B4D80700E4460D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		603E208023B4D80E00E4460D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				603E208123B4D80E00E4460D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		603E209A23B4D80E00E4460D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		603E209B23B4D80E00E4460D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		603E209D23B4D80E00E4460D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlutterNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.FlutterNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		603E209E23B4D80E00E4460D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlutterNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.FlutterNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		603E20A023B4D80E00E4460D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlutterNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.FlutterNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlutterNote.app/FlutterNote";
+			};
+			name = Debug;
+		};
+		603E20A123B4D80E00E4460D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlutterNoteTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.FlutterNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlutterNote.app/FlutterNote";
+			};
+			name = Release;
+		};
+		603E20A323B4D80E00E4460D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlutterNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.FlutterNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlutterNote;
+			};
+			name = Debug;
+		};
+		603E20A423B4D80E00E4460D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlutterNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cocoapods.FlutterNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlutterNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		603E206D23B4D80700E4460D /* Build configuration list for PBXProject "FlutterNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603E209A23B4D80E00E4460D /* Debug */,
+				603E209B23B4D80E00E4460D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		603E209C23B4D80E00E4460D /* Build configuration list for PBXNativeTarget "FlutterNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603E209D23B4D80E00E4460D /* Debug */,
+				603E209E23B4D80E00E4460D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		603E209F23B4D80E00E4460D /* Build configuration list for PBXNativeTarget "FlutterNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603E20A023B4D80E00E4460D /* Debug */,
+				603E20A123B4D80E00E4460D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		603E20A223B4D80E00E4460D /* Build configuration list for PBXNativeTarget "FlutterNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				603E20A323B4D80E00E4460D /* Debug */,
+				603E20A423B4D80E00E4460D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 603E206A23B4D80700E4460D /* Project object */;
+}
